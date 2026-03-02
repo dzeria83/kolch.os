@@ -16,7 +16,7 @@ self-healing operating system based on sharding and Galois fields
 
 - ## 📸 HyperTerminal Demo
 
-![KOLCH OS HyperTerminal](https://github.com/dzeria83/kolch.os/raw/main/assets/terminal-demo.jpg)
+![KOLCH OS HyperTerminal](assets/terminal-demo.jpg)
 
 ## ლიცენზია
 KOLCH OS is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for details.
