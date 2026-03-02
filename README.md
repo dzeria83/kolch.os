@@ -14,9 +14,16 @@ self-healing operating system based on sharding and Galois fields
 - Isabelle-ს Formal verification
 - Multi-level access control (User, SU)
 
+- ## 📸 HyperTerminal Demo
+
+![KOLCH OS HyperTerminal](https://github.com/dzeria83/kolch.os/raw/main/assets/terminal-demo.jpg)
+
 ## ლიცენზია
 KOLCH OS is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for details.
 
-## აწყობა
-```bash
-zig build
+## აწყობა და გაშვება
+1. დააყენეთ Zig 0.11.0 ან უფრო ახალი
+2. გაუშვით:
+   ```bash
+   zig build
+   qemu-system-x86_64 -kernel zig-out/bin/kolch_kernel
